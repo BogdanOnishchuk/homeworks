@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрационная форма</title>
+</head>
+<body>
+<form method="get" action="register.php">
+    <pre>
+    <lable for="name"> your name </lable>
+    <input required="required" name="name" type="text" placeholder="enter name"/>
+        <lable for="email"> your email </lable>
+    <input id="email" name="email" type="email" placeholder="enter your email"/>
+        <lable for="name"> your password </lable>
+    <input id="name" name="password" type="password" placeholder="enter password"/>
+        <select name="sex">
+        <option value="1">M </option>
+        <option value="0">Ж</option>
+    </select>
+        <input type="checkbox" name="agree" checked="checked"/>
+    <label for=" agree " >согласны или нет ?</label>
+    <input type="submit" value="Отправить форму "/>
+    </pre>
+
+
+</form>
+
+</body>
+</html>
